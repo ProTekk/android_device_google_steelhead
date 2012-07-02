@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/google/steelhead/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/google/steelhead/kernel
+	LOCAL_KERNEL := device/google/steelhead/prebuilt/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
